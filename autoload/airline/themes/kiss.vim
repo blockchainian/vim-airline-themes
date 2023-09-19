@@ -6,6 +6,7 @@ function! airline#themes#kiss#refresh()
   let s:Na = ['#000087', '#87afff', 18, 111]
   let s:Va = ['#000087', '#ffaf00', 18, 214]
   let s:b = ['#00ffff', 'NONE', 14, 'NONE']
+
   let s:SL = airline#themes#get_highlight('StatusLine')
   let s:SLNC = airline#themes#get_highlight('StatusLineNC')
 
