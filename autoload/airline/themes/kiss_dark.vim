@@ -1,10 +1,10 @@
 let g:airline#themes#kiss_dark#palette = {}
 
 function! airline#themes#kiss_dark#refresh()
-  let s:Ca = ['#080808', '#585858', 232, 240]
-  let s:Ia = ['#878787', '#5f0087', 102 , 54]
-  let s:Na = ['#008787', '#262626', 30, 235]
-  let s:Va = ['#00875f', '#5f005f', 29, 53]
+  let s:Ca = ['#080808', '#8700ff', 232, 93]
+  let s:Ia = ['#5f5f5f', '#121212', 59 , 233]
+  let s:Na = ['#5f8787', '#262626', 66, 235]
+  let s:Va = ['#00df5f', '#5f0087', 41, 54]
   let s:b = ['#00ffff', 'NONE', 14, 'NONE']
 
   let s:SL = airline#themes#get_highlight('StatusLine')
